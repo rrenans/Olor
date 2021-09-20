@@ -44,6 +44,9 @@ WHERE
 	PESSOA.IDADE > 10 
 ORDER BY
 	NOME DESC;
+    
+-- Mudando senha do banco de dados
+-- ALTER USER 'root'@'localhost' IDENTIFIED BY 'mysql';
 
 -- Esse delimiter está dizendo que só vai parar depois do $$
 DELIMITER $$
